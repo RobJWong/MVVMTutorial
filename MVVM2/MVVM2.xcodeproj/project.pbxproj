@@ -12,12 +12,12 @@
 		D9D8883421EADFFC00A04E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D8883321EADFFC00A04E14 /* Assets.xcassets */; };
 		D9D8883721EADFFC00A04E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8883521EADFFC00A04E14 /* LaunchScreen.storyboard */; };
 		D9D8884221EADFFD00A04E14 /* MVVM2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8884121EADFFD00A04E14 /* MVVM2Tests.swift */; };
-		D9D8885021EAE08300A04E14 /* stuart.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D8884F21EAE08300A04E14 /* stuart.png */; };
 		D9D8885221EAE0A000A04E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8885121EAE0A000A04E14 /* ViewController.swift */; };
 		D9D8885421EAE0B200A04E14 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8885321EAE0B200A04E14 /* ViewModel.swift */; };
 		D9D8885621EAE0C000A04E14 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8885521EAE0C000A04E14 /* Model.swift */; };
 		D9D8885821EAE10B00A04E14 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8885721EAE10B00A04E14 /* Helpers.swift */; };
 		D9D8885B21EAE15C00A04E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8885921EAE15C00A04E14 /* Main.storyboard */; };
+		D9D8889821EAFFD400A04E14 /* stuart.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D8889721EAFFD400A04E14 /* stuart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +40,12 @@
 		D9D8883D21EADFFD00A04E14 /* MVVM2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D8884121EADFFD00A04E14 /* MVVM2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM2Tests.swift; sourceTree = "<group>"; };
 		D9D8884321EADFFD00A04E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9D8884F21EAE08300A04E14 /* stuart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stuart.png; path = ../../MVVM2Old/MVVMTutorial/stuart.png; sourceTree = "<group>"; };
 		D9D8885121EAE0A000A04E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9D8885321EAE0B200A04E14 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		D9D8885521EAE0C000A04E14 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		D9D8885721EAE10B00A04E14 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = MVVM2/Helpers.swift; sourceTree = SOURCE_ROOT; };
 		D9D8885A21EAE15C00A04E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../MVVM2Old/MVVMTutorial/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D8889721EAFFD400A04E14 /* stuart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stuart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 				D9D8883521EADFFC00A04E14 /* LaunchScreen.storyboard */,
 				D9D8883821EADFFC00A04E14 /* Info.plist */,
 				D9D8883021EADFFB00A04E14 /* MVVM2.xcdatamodeld */,
-				D9D8884F21EAE08300A04E14 /* stuart.png */,
+				D9D8889721EAFFD400A04E14 /* stuart.png */,
 			);
 			path = MVVM2;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D8885021EAE08300A04E14 /* stuart.png in Resources */,
+				D9D8889821EAFFD400A04E14 /* stuart.png in Resources */,
 				D9D8883721EADFFC00A04E14 /* LaunchScreen.storyboard in Resources */,
 				D9D8883421EADFFC00A04E14 /* Assets.xcassets in Resources */,
 				D9D8885B21EAE15C00A04E14 /* Main.storyboard in Resources */,

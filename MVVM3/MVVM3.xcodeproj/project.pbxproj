@@ -12,10 +12,10 @@
 		D9D8887321EAE39E00A04E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9D8887221EAE39E00A04E14 /* Assets.xcassets */; };
 		D9D8887621EAE39E00A04E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8887421EAE39E00A04E14 /* LaunchScreen.storyboard */; };
 		D9D8888121EAE39E00A04E14 /* MVVM3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8888021EAE39E00A04E14 /* MVVM3Tests.swift */; };
-		D9D8889121EAE3BB00A04E14 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8888C21EAE3BA00A04E14 /* ViewModel.swift */; };
-		D9D8889221EAE3BB00A04E14 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8888E21EAE3BA00A04E14 /* Model.swift */; };
-		D9D8889321EAE3BB00A04E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D8889021EAE3BA00A04E14 /* ViewController.swift */; };
 		D9D8889621EAE3D700A04E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D8889421EAE3D700A04E14 /* Main.storyboard */; };
+		D9D888A821EB008200A04E14 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D888A321EB008200A04E14 /* Model.swift */; };
+		D9D888A921EB008200A04E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D888A521EB008200A04E14 /* ViewController.swift */; };
+		D9D888AA21EB008200A04E14 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D888A721EB008200A04E14 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,10 @@
 		D9D8887C21EAE39E00A04E14 /* MVVM3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D8888021EAE39E00A04E14 /* MVVM3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM3Tests.swift; sourceTree = "<group>"; };
 		D9D8888221EAE39E00A04E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9D8888C21EAE3BA00A04E14 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		D9D8888E21EAE3BA00A04E14 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		D9D8889021EAE3BA00A04E14 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9D8889521EAE3D700A04E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../MVVM3Old/MVVMTutorial2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9D888A321EB008200A04E14 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D9D888A521EB008200A04E14 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9D888A721EB008200A04E14 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		D9D8886721EAE39D00A04E14 /* MVVM3 */ = {
 			isa = PBXGroup;
 			children = (
-				D9D8888D21EAE3BA00A04E14 /* Model */,
-				D9D8888F21EAE3BA00A04E14 /* View */,
-				D9D8888B21EAE3BA00A04E14 /* ViewModel */,
+				D9D888A221EB008200A04E14 /* Model */,
+				D9D888A421EB008200A04E14 /* View */,
+				D9D888A621EB008200A04E14 /* ViewModel */,
 				D9D8886821EAE39D00A04E14 /* AppDelegate.swift */,
 				D9D8887221EAE39E00A04E14 /* Assets.xcassets */,
 				D9D8889421EAE3D700A04E14 /* Main.storyboard */,
@@ -105,31 +105,28 @@
 			path = MVVM3Tests;
 			sourceTree = "<group>";
 		};
-		D9D8888B21EAE3BA00A04E14 /* ViewModel */ = {
+		D9D888A221EB008200A04E14 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D9D8888C21EAE3BA00A04E14 /* ViewModel.swift */,
+				D9D888A321EB008200A04E14 /* Model.swift */,
 			);
-			name = ViewModel;
-			path = ../../MVVM3Old/MVVMTutorial2/ViewModel;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		D9D8888D21EAE3BA00A04E14 /* Model */ = {
+		D9D888A421EB008200A04E14 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D9D8888E21EAE3BA00A04E14 /* Model.swift */,
+				D9D888A521EB008200A04E14 /* ViewController.swift */,
 			);
-			name = Model;
-			path = ../../MVVM3Old/MVVMTutorial2/Model;
+			path = View;
 			sourceTree = "<group>";
 		};
-		D9D8888F21EAE3BA00A04E14 /* View */ = {
+		D9D888A621EB008200A04E14 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D9D8889021EAE3BA00A04E14 /* ViewController.swift */,
+				D9D888A721EB008200A04E14 /* ViewModel.swift */,
 			);
-			name = View;
-			path = ../../MVVM3Old/MVVMTutorial2/View;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9D8889321EAE3BB00A04E14 /* ViewController.swift in Sources */,
-				D9D8889221EAE3BB00A04E14 /* Model.swift in Sources */,
+				D9D888AA21EB008200A04E14 /* ViewModel.swift in Sources */,
+				D9D888A821EB008200A04E14 /* Model.swift in Sources */,
 				D9D8887121EAE39D00A04E14 /* MVVM3.xcdatamodeld in Sources */,
-				D9D8889121EAE3BB00A04E14 /* ViewModel.swift in Sources */,
+				D9D888A921EB008200A04E14 /* ViewController.swift in Sources */,
 				D9D8886921EAE39D00A04E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
